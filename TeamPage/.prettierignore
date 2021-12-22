@@ -1,0 +1,7 @@
+build
+node_modules
+pack
+package-lock.json
+package.json
+.vscode
+.prettierrc
