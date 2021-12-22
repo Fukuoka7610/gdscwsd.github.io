@@ -9,61 +9,71 @@ import Row from 'react-bootstrap/Row'
 import logo from './svg/logo.svg'
 
 export const Footer = () => {
-    return (
-        <footer>
-            <Container className='logo-pos'>
-                <Col md={{ span: 6, offset: 6 }}>
-                    <img className='footer-logo' src={ logo } alt=''/>
-                </Col>
-                </Container>
+  return (
+    <footer>
+      <Container className="logo-pos">
+        <Col md={{ span: 6, offset: 6 }}>
+          <img className="footer-logo" src={logo} alt="" />
+        </Col>
+      </Container>
 
-                <Container>
-                    <Row className="justify-content-center">
-                        <Col id='tag' md="auto">
-                            <Link to='members'> {/* Define the linked page */}
-                                About
-                            </Link>
-                        </Col>
-                        <Col id='tag' md="auto">
-                            <Link to='members'> {/* Define the linked page */}
-                                Teams
-                            </Link>
-                        </Col>
-                        <Col id='tag' md="auto">
-                            <Link to='members'> {/* Define the linked page */}
-                                Events
-                            </Link>
-                        </Col>
-                    </Row>
-                </Container>
+      <Container>
+        <Row className="justify-content-center">
+          <Col id="tag" md="auto">
+            <Link to="members">
+              {' '}
+              {/* Define the linked page */}
+              About
+            </Link>
+          </Col>
+          <Col id="tag" md="auto">
+            <Link to="members">
+              {' '}
+              {/* Define the linked page */}
+              Teams
+            </Link>
+          </Col>
+          <Col id="tag" md="auto">
+            <Link to="members">
+              {' '}
+              {/* Define the linked page */}
+              Events
+            </Link>
+          </Col>
+        </Row>
+      </Container>
 
-                <hr/>
+      <hr />
 
-                <Container className='icon-pos'>
-                    <Row className="justify-content-center">
-                        <Col id='icon-tag' md="auto">
-                            <Link to='members'> {/* Define the linked page */}
-                                <img src={ Google } alt=''/>
-                            </Link>
-                        </Col>
-                        <Col id='icon-tag' md="auto">
-                            <Link to='members'> {/* Define the linked page */}
-                                <img src={ Instagram } alt=''/>
-                            </Link>
-                        </Col>
-                        <Col id='icon-tag' md="auto">
-                            <Link to='members'> {/* Define the linked page */}
-                            <img src={ LinkedIn } alt=''/>
-                            </Link>
-                        </Col>
-                    </Row>
-                </Container>
+      <Container className="icon-pos">
+        <Row className="justify-content-center">
+          <Col id="icon-tag" md="auto">
+            <Link to="members">
+              {' '}
+              {/* Define the linked page */}
+              <img src={Google} alt="" />
+            </Link>
+          </Col>
+          <Col id="icon-tag" md="auto">
+            <Link to="members">
+              {' '}
+              {/* Define the linked page */}
+              <img src={Instagram} alt="" />
+            </Link>
+          </Col>
+          <Col id="icon-tag" md="auto">
+            <Link to="members">
+              {' '}
+              {/* Define the linked page */}
+              <img src={LinkedIn} alt="" />
+            </Link>
+          </Col>
+        </Row>
+      </Container>
 
-                <div class="copy-right text-center p-3">
-                    All Rights Reserved by GDSC Waseda
-                </div>  
-        </footer>
-    )
+      <div class="copy-right text-center p-3">All Rights Reserved by GDSC Waseda</div>
+    </footer>
+  )
 }
 
 export default Footer

@@ -1,10 +1,10 @@
-.wapper{
-    display: flex;
-    min-height: 100vh;
+.wapper {
+  display: flex;
+  min-height: 100vh;
 }
 
-.main{
-    display: flex;
-    flex: 1;
-    padding-top: 56px;
+.main {
+  display: flex;
+  flex: 1;
+  padding-top: 56px;
 }

@@ -1,43 +1,42 @@
-.main-img{
-    height: 75vh;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+.main-img {
+  height: 75vh;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
-.overlay-component{
-    padding-top: 72px;
+.overlay-component {
+  padding-top: 72px;
 }
 
-.card-title{
-    padding-top: 90px;
-    text-align: center;
+.card-title {
+  padding-top: 90px;
+  text-align: center;
 }
 
-.logo-left{
-    height: 80%;
-    width: 80%;
-    padding-top: 12px;
+.logo-left {
+  height: 80%;
+  width: 80%;
+  padding-top: 12px;
 }
 
-.inner-text{
-    float: left;
+.inner-text {
+  float: left;
 }
 
-.logo-right{
-    height: 80%;
-    width: 80%;
-    padding-top: 12px;
-    padding-left: 5px;
+.logo-right {
+  height: 80%;
+  width: 80%;
+  padding-top: 12px;
+  padding-left: 5px;
 }
 
-
-p{
-    clear: both;
-    padding-top: 10px;
-    text-align: center;
+p {
+  clear: both;
+  padding-top: 10px;
+  text-align: center;
 }
 
-p.team-name{
-    font-size: 2.2em;
-    font-weight: 700;
+p.team-name {
+  font-size: 2.2em;
+  font-weight: 700;
 }
