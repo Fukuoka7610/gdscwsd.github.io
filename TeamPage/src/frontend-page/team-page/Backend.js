@@ -1,18 +1,18 @@
-import './TeamPage.css'
+import '../TeamPage.css'
 
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Image from './placeholder-300×225.jpeg'
-import MainCard from '../components/Cards/MainCard/MainCard'
-import MembersCard from '../components/Cards/MembersCard/MembersCard'
+import MainCard from '../../components/Cards/MainCard/MainCard'
+import MembersCard from '../../components/Cards/MembersCard/MembersCard'
 import React from 'react'
 import Row from 'react-bootstrap/Row'
 
-export const TeamPage = () => {
+export const BackendPage = () => {
 
     const card = {
         title : "GDSC Waseda",
-        teamName : "Frontend Team",
+        teamName : "Backend Team",
         description: <>
             "We must hold our organizations accountable where they control <br/>
             the doors by demanding clarity and tranparency around <br/>
@@ -38,7 +38,11 @@ export const TeamPage = () => {
                     </Col>
                 </Row>
             </Container>
+                
             <MembersCard/>
+
         </div>
     )
 }
+
+export default BackendPage;
