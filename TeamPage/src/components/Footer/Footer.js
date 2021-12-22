@@ -10,7 +10,7 @@ import logo from './svg/logo.svg'
 
 export const Footer = () => {
     return (
-        <div>
+        <footer>
             <Container className='logo-pos'>
                 <Col md={{ span: 6, offset: 6 }}>
                     <img className='footer-logo' src={ logo } alt=''/>
@@ -62,7 +62,7 @@ export const Footer = () => {
                 <div class="copy-right text-center p-3">
                     All Rights Reserved by GDSC Waseda
                 </div>  
-        </div>
+        </footer>
     )
 }
 
